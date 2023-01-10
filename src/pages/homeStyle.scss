@@ -1,0 +1,22 @@
+.form{
+    background-color: aqua;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    span{
+        font-size: large;
+        font-weight: bold;
+    }
+    .addWord{
+        display: flex;
+        gap: 10px;
+    }
+    input{
+        border-radius: 10px;
+        padding: 10px;
+    }
+    button{
+        padding: 10px;
+    }
+}
